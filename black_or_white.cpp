@@ -10,7 +10,7 @@ using namespace std;
 
 int matrix[MAXN][MAXN][MAXN];  
 
-int f(vector<int> numbers,int index, int last_black, int last_white) {
+int f(vector<int>& numbers,int index, int last_black, int last_white) {
     if (index == numbers.size()) {
         return 0;
     }
